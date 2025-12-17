@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Jurídico - Bruno Pessôa Advogados</title>
+    
+    <!-- SEO -->
+    <meta name="description" content="Artigos e notícias sobre Direito. Mantenha-se informado com conteúdo jurídico de qualidade.">
+    <meta name="keywords" content="blog jurídico, direito, advocacia, artigos jurídicos">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="../images/logo.ico">
+    <link rel="shortcut icon" type="image/png" href="../images/logo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<script src="../js/hamburger_menu.js" defer></script>
+<body>
+<header>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="logo">
+        <a href="../index.html">
+            <img src="/images/logo.png" alt="Logo bp" class="logo-img">
+            Bruno Pessôa
+        </a>
+    </div>
+    <nav id="nav-menu">
+        <a href="../servicos.html">Serviços</a>
+        <a href="blog/index.html">Blog</a>
+        <a href="../sobre.html">Sobre</a>
+        <a href="../contato.html" class="btn-contato">Contato</a>
+    </nav>
+</header>
+
+    <section class="blog-hero">
+        <h1>Blog Jurídico</h1>
+        <div class="divider"></div>
+        <p>Artigos, análises e notícias sobre o mundo do Direito. Conteúdo de qualidade para mantê-lo sempre informado.</p>
+    </section>
+
+    <main class="blog-container">
+        <!-- Filtro de Categorias -->
+        <div class="categories">
+            <button class="category-btn active">Todos</button>
+            <button class="category-btn" data-category="Direito Civil">Direito Civil</button>
+            <button class="category-btn" data-category="Direito Previdenciario">Direito Previdenciario</button>
+            <button class="category-btn" data-category="Direito Trabalhista">Direito Trabalhista</button>
+            <button class="category-btn" data-category="Direito do Consumidor">Direito do Consumidor</button>
+            <button class="category-btn" data-category="Atualidades">Atualidades</button>
+        </div>
+
+        <!-- Grid de Posts -->
+        <div class="posts-grid">
+            <!-- Post em Destaque -->
+            <article class="post" id="featured-post" data-category="Direito Civil">
+                <div class="post-image"><img src="images-capas/mulher_livros-biblioteca.webp"></div>
+                <div class="post-content">
+                    <span class="featured-badge">Em Destaque</span>
+                    <div class="post-meta">
+                        <span class="post-category" >Direito Civil</span>
+                        <span>•</span>
+                        <span>15 de Outubro, 2025</span>
+                    </div>
+                    <h2 class="post-title">Novas Regras do Código Civil: O que Muda para Você</h2>
+                    <p class="post-excerpt">Entenda as principais alterações no Código Civil e como elas podem impactar seu dia a dia. Analisamos as mudanças mais relevantes e suas consequências práticas para cidadãos e empresas.</p>
+                    <a href="novas-regras-codigo-civil.html" class="read-more">Ler artigo completo →</a>
+                </div>
+            </article>
+
+            <!-- Post Normal 1 -->
+            <article class="post" data-category="Direito Previdenciario">
+                <div class="post-image"><img src="images-capas/balança_justiça.webp" alt="Uma balança com dinheiro encima."></div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-category">Direito Previdenciario</span>
+                        <span>•</span>
+                        <span>12 de Outubro, 2025</span>
+                    </div>
+                    <h2 class="post-title">Qual a Idade Mínima para se Aposentar em 2024?</h2>
+                    <p class="post-excerpt">A Reforma da Previdência trouxe mudanças significativas. Saiba o que mudou e como isso afeta o seu futuro benefício.</p>
+                    <a href="aposentadoria-2024-idade-minima.html" class="read-more">Ler mais →</a>
+                </div>
+            </article>
+
+            <!-- Post Normal 2 -->
+            <article class="post" data-category="Direito Trabalhista">
+                <div class="post-image"><img src="images-capas/escritorio.webp" alt="Uma menina trabalhando em um escritorio"></div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-category">Direito Trabalhista</span>
+                        <span>•</span>
+                        <span>10 de Outubro, 2025</span>
+                    </div>
+                    <h2 class="post-title">Direitos do Trabalhador: Guia Completo 2025</h2>
+                    <p class="post-excerpt">Conheça seus direitos trabalhistas atualizados conforme a legislação vigente e saiba como reivindicá-los.</p>
+                    <a href="direitos-trabalhador-guia-completo-2025.html" class="read-more">Ler mais →</a>
+                </div>
+            </article>
+
+            <!-- Post Normal 3 -->
+            <article class="post" data-category="Direito do Consumidor">
+                <div class="post-image"><img src="images-capas/teclado_cadeado.webp" alt="Um cadeado encima de um teclado preto"></div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-category">Direito do Consumidor</span>
+                        <span>•</span>
+                        <span>08 de Outubro, 2025</span>
+                    </div>
+                    <h2 class="post-title">LGPD: Como Proteger seus Dados Pessoais</h2>
+                    <p class="post-excerpt">Entenda seus direitos sob a Lei Geral de Proteção de Dados e como exigir que empresas protejam suas informações.</p>
+                    <a href="lgpd-como-proteger-seus-dados.html" class="read-more">Ler mais →</a>
+                </div>
+            </article>
+
+            <!-- Post Normal 4 -->
+            <article class="post" data-category="Atualidades">
+                <div class="post-image"><img src="images-capas/decisoes_stf-setembro.webp" alt="Um caderno azul com o texto stf ao lado de desenhos de juizes"></div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-category">Atualidades</span>
+                        <span>•</span>
+                        <span>05 de Outubro, 2025</span>
+                    </div>
+                    <h2 class="post-title">Principais Decisões do STF em Setembro</h2>
+                    <p class="post-excerpt">Resumo das decisões mais importantes do Supremo Tribunal Federal e seus impactos na sociedade brasileira.</p>
+                    <a href="principais-decisoes-stf-setembro.html" class="read-more">Ler mais →</a>
+                </div>
+            </article>
+
+            <!-- Post Normal 5 -->
+            <article class="post" data-category="Direito Civil">
+                <div class="post-image"><img src="images-capas/aluguel.webp"></div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-category">Direito Civil</span>
+                        <span>•</span>
+                        <span>02 de Outubro, 2025</span>
+                    </div>
+                    <h2 class="post-title">Guia Prático: Como Fazer um Contrato de Aluguel</h2>
+                    <p class="post-excerpt">Passo a passo para elaborar um contrato de locação seguro, com todas as cláusulas essenciais para proteger ambas as partes.</p>
+                    <a href="como-fazer-um-contrato-de-aluguel.html" class="read-more">Ler mais →</a>
+                </div>
+            </article>
+
+            <!-- Post Normal 6 -->
+            <article class="post" data-category="Direito Previdenciario">
+                <div class="post-image"><img src="images-capas/porquinho_economia.webp" alt="Um homem colocando moedas em um cofre de porquinho."></div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-category">Direito Previdenciario</span>
+                        <span>•</span>
+                        <span>28 de Setembro, 2025</span>
+                    </div>
+                    <h2 class="post-title">Planejando o Amanhã: 5 Passos Essenciais para Começar sua Aposentadoria Hoje</h2>
+                    <p class="post-excerpt">Não espere! Com um planejamento simples e eficaz, você garante um futuro mais tranquilo e seguro.</p>
+                    <a href="planeje-sua-aposentadoria-5-passos.html" class="read-more">Ler mais →</a>
+                </div>
+            </article>
+
+            <!-- Post Normal 7 -->
+            <article class="post" data-category="Direito da Familia">
+                <div class="post-image"><img src="images-capas/familia_separada.webp" alt="Um homem rasgando um desenho de uma familia."></div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-category">Direito da Familia</span>
+                        <span>•</span>
+                        <span>28 de Setembro, 2025</span>
+                    </div>
+                    <h2 class="post-title">Guarda Compartilhada: Direitos e Deveres</h2>
+                    <p class="post-excerpt">Entenda como funciona a guarda compartilhada, direitos e deveres dos pais, pensão alimentícia e tudo que você precisa saber para garantir o melhor interesse dos filhos.</p>
+                    <a href="guarda-compartilhada-direitos-e-deveres.html" class="read-more">Ler mais →</a>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <address>
+            Suporte: <a href="mailto:suporte.bp.advogadosassociados@gmail.com">suporte.bp.advogadosassociados@gmail.com</a>
+        </address>
+        <p class="copyright">&copy; Todos os direitos reservados a Bruno Pessôa - Advogados Associados</p>
+    </footer>
+
+    
+<!-- <script>
+const buttons = document.querySelectorAll(".categories button");
+const posts = document.querySelectorAll(".post");
+
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+
+      //remove class active dos botões
+      buttons.forEach(btn => btn.classList.remove("active"));
+
+      //adiciona active no botão clicado
+      button.classList.add("active");
+      
+    const category = button.getAttribute("data-category");
+
+    if (!category || button.textContent.trim() === "Todos") {
+        posts.forEach(post => {
+            post.style.display = "block";
+        });
+        return;
+    }
+
+    // esconder todos
+    posts.forEach(post => {
+      post.style.display = "none";
+    });
+
+    // mostrar apenas os da categoria clicada
+    posts.forEach(post => {
+      if (post.getAttribute("data-category") === category) {
+        post.style.display = "block";
+      }
+    });
+  });
+});
+</script>
+-->
+    
+    <script src="../js/filter-blog.js" defer></script>
+</body>
+</html>

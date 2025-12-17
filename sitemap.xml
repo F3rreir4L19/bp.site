@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Página Principal -->
+  <url>
+    <loc>https://bpadvogadosassociados.github.io/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Serviços -->
+  <url>
+    <loc>https://bpadvogadosassociados.github.io/servicos.html</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Sobre -->
+  <url>
+    <loc>https://bpadvogadosassociados.github.io/sobre.html</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Contato -->
+  <url>
+    <loc>https://bpadvogadosassociados.github.io/contato.html</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Blog -->
+  <url>
+    <loc>https://bpadvogadosassociados.github.io/blog/index.html</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- novas-regras-codigo-civil.html -->
+  <url>
+    <loc>https://bpadvogadosassociados.github.io/blog/novas-regras-codigo-civil.html</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+<!-- aposentadoria-2024-idade-minima.html -->
+  <url>
+    <loc>https://bpadvogadosassociados.github.io/blog/aposentadoria-2024-idade-minima.html</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+<!-- direitos-trabalhador-guia-completo-2025.html -->
+  <url>
+    <loc>https://bpadvogadosassociados.github.io/blog/direitos-trabalhador-guia-completo-2025.html</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+<!-- https://bpadvogadosassociados.github.io/blog/lgpd-como-proteger-seus-dados.html -->
+  <url>
+    <loc>https://bpadvogadosassociados.github.io/blog/lgpd-como-proteger-seus-dados.html</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+<!-- principais-decisoes-stf-setembro.html -->
+  <url>
+    <loc>https://bpadvogadosassociados.github.io/blog/principais-decisoes-stf-setembro.html</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+<!-- como-fazer-um-contrato-de-aluguel.html -->
+  <url>
+    <loc>https://bpadvogadosassociados.github.io/blog/como-fazer-um-contrato-de-aluguel.html</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+<!-- planeje-sua-aposentadoria-5-passos.html -->
+  <url>
+    <loc>https://bpadvogadosassociados.github.io/blog/planeje-sua-aposentadoria-5-passos.html</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+<!-- guarda-compartilhada-direitos-e-deveres.html -->
+  <url>
+    <loc>https://bpadvogadosassociados.github.io/blog/guarda-compartilhada-direitos-e-deveres.html</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
